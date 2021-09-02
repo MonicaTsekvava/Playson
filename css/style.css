@@ -328,6 +328,12 @@ html,body{
     html,body{
         font-size: 14px;
     }
+    .background{
+        display: none;
+    }
+    .content{
+        margin: 0 auto;
+    }
     
 }
 @media (max-width:900px) {
