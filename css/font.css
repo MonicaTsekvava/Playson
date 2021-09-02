@@ -1,0 +1,44 @@
+/*lbet font*/
+@font-face {
+	font-family: "lbet-nus";
+	src: url("../fonts/LBetSTDNus-Medium.woff2") format("woff2"),
+	url("../fonts/LBetSTDNus-Medium.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "lbet-nus";
+	src: url("../fonts/LBetSTDNus-Bold.woff2") format("woff2"),
+	url("../fonts/LBetSTDNus-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "lbet-mt";
+	src: url("../fonts/LBetSTDMT-Regular.woff2") format("woff2"),
+	url("../fonts/LBetSTDMT-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "lbet-mt";
+	src: url("../fonts/LBetSTDMT-Bold.woff2") format("woff2"),
+	url("../fonts/LBetSTDMT-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'promo-mt';
+	src: url('../fonts/Gugeshashvili_8_Mthavruli-Bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Gugeshashvili_8_Mthavruli-Bold.woff') format('woff'),
+	url('../fonts/Gugeshashvili_8_Mthavruli-Bold.ttf') format('truetype'),
+	url('../fonts/Gugeshashvili_8_Mthavruli-Bold.svg#Gugeshashvili_8_Mthavruli-Bold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*end lbet font*/

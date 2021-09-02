@@ -1,0 +1,344 @@
+.background{
+    background: url(../img/background.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 100%;
+    padding-top:38vw;
+    
+}
+
+.content{
+    position: relative;
+    max-width: 1250px;
+    width: 100%;
+    border-radius: 3px;
+    margin: -14rem auto 0;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+.text-top{
+    background: url(../img/photo1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 10rem 2rem 8rem;
+
+
+}
+.title{
+    margin-top: 2.5rem;
+    font-size: 2.25rem;
+    line-height: 3.3rem;
+}
+.times{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 55.3rem;
+    width: 85%;
+    border-radius: 50px;
+    background-color: #2ab541;
+    color: white;
+    margin: 3.5rem auto 3.5rem;
+    height: 4rem;
+    align-items: center;
+    overflow:hidden;
+    line-height: 1.6rem;
+}
+.start-time{
+    font-size: 1rem;
+    padding-left: 1rem;
+    width: 53%;
+}
+.end-time{
+   font-size: 1rem;
+    width: 55%;
+    background-color:#cc312b;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+h1{
+    font-size:2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.k240{
+   display: block;
+   max-width: 750px;
+   width: 100%;
+    margin:  auto;
+}
+.second-section{
+    background-color: #1E1E1A;
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    width: fit-content;
+    margin-left: 3rem;
+    font-size: 1.25rem;
+    line-height: 1.8rem;
+    padding-bottom: 2rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    font-family: "lbet-mt";
+    position: relative;
+}
+h2::before{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    content:"";
+    top: 0;
+    left: -1rem;
+    width: 0.2rem;
+    height: 1.2rem;
+    background-color: #252520;
+    border-radius: 3px;
+    position:relative;
+}
+h2::after{
+    position:absolute;
+    content:"";
+    bottom:0;
+    display: flex;
+    flex-direction:row;
+    height: 0;
+    width: 100%;
+    border-radius: 3px;
+   background-color: #252520; 
+    border: 1px solid #252520;
+}
+.slot{
+    width: 90%;
+    margin: 7rem 2rem;
+    border:1px solid #292924;
+    border-radius: 10px;
+    color:white;
+    margin: 7rem auto 10rem;
+    padding: 3rem 3rem 2rem 3rem;;
+    border-radius: 10px;
+    border: 1px solid #292924;
+    
+}
+.slot-games{
+   display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0.5rem 0;
+    margin-top: 2rem;
+    
+}
+.book{
+    
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    height: 10rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.books{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.third-section{
+    background-color: #252520;
+   
+}
+h3{
+    font-size: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.5rem;
+    font-family: "lbet-mt";
+}
+.question{
+    color: white;
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+     margin-top:3rem;
+     
+}
+h3::before{
+    content: "";
+    width: 0.2rem;
+    height: 1.2rem;
+    background-color: #1E1E1A;
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-right: 1rem;
+}
+.first-block{
+    margin: 4rem 3rem 7rem 6rem;
+}
+.answer{
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.7rem;
+}
+.fourth-section{
+    background-color: #1E1E1A;
+    padding: 4rem 3rem 7rem 6rem;
+    text-align: center;
+}
+.surprise{
+    color: white;
+    font-family: "lbet-mt";
+    line-height: 1.7rem;
+   
+}
+.table{
+    width: 100%;
+    max-width: 533px;
+    margin: 3rem auto 1.5rem;
+    padding-bottom: 3rem;
+    
+}
+.table-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding: 0 1.2rem;
+    color: white;
+    font-size: 1rem;
+    font-family: "lbet-mt";
+    
+}
+.info-tables{
+    max-height:34rem ;
+    overflow-y: auto;
+    padding-right: 0.8rem;
+    
+    
+
+}
+
+/* width */
+.info-tables::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .info-tables::-webkit-scrollbar-track {
+    background: #404038; 
+    border-radius: 50px;
+  }
+   
+  /* Handle */
+  .info-tables::-webkit-scrollbar-thumb {
+    background: black; 
+    border-radius: 50px;
+
+  }
+  
+  /* Handle on hover */
+  .info-tables::-webkit-scrollbar-thumb:hover {
+    background: black; 
+  }
+
+.info-table{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right:1.38rem ;
+    padding-left: 1.38rem;
+    margin-bottom: 0.8rem;
+    height: 4.25rem;
+    border-radius: 34px;
+    background-color: #404038;
+  
+}
+.info-table::before{
+    content: "";
+    position: absolute;
+    width: 1.1875rem;
+    height:  1.1875rem;
+    background: url(../img/Group\ 474.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 100% auto;
+    right: 7rem;
+}
+.time{
+    color: white;
+    font-size: 1rem;
+}
+.score{
+    display: flex;
+    align-items: center;
+    font-size:1.25rem;
+    color: #A8A87C;
+}
+span{
+    color: #A8A87C;
+    margin-left: 0.5rem;
+}
+.fifth-section{
+    background-color: #252520;
+}
+.rules-button{
+    margin: 0 auto;
+    text-align: center;
+    background: linear-gradient(to left, #D29F5D, #C17400);
+    border-radius: 100px;
+    font-size: 1.2rem;
+    padding:1.5rem 2.5rem ;
+    display: table;
+    color: white;
+    transform: translateY(-50%);
+    
+}
+.rules{
+    color: white;
+    margin: 3rem 3rem 7rem 6rem;
+     position: relative;
+    line-height: 2rem;
+    font-size: 1.1rem;
+}
+
+.rules-p{
+    margin-bottom: 1.5rem;
+}
+html,body{
+    font-size: 16px;
+}
+
+@media (max-width:1000px) {
+    html,body{
+        font-size: 14px;
+    }
+    
+}
+@media (max-width:900px) {
+    html,body{
+        font-size: 12px;
+    }
+    
+}
+@media (max-width:800px) {
+    html,body{
+        font-size: 11px;
+    }
+    
+}
